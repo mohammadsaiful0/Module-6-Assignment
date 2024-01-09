@@ -1,0 +1,60 @@
+/* Styles for small screens (e.g., smartphones in portrait mode) */
+@media screen and (max-width: 767px) {
+    .social-icons {
+        display: none !important;
+    }
+    .icon-list-top{
+        justify-content: center;
+    }
+    .hero{
+        padding-top: 3em !important;
+    }
+    .hero .image-col{
+        margin-top: 50px;
+    }
+    .hero .image-col img{
+        width: 70% !important;
+    }
+    .hero .hero-heading{
+        font-size: 40px !important;
+        line-height: 50px !important;
+    } 
+    .services{
+        width: 90% !important;
+        justify-content: center;
+    }
+    .services h2{
+        width: 100% !important;
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    .services .card-items{
+        width: 100% !important;
+    }
+    .services {
+        padding-top: 3em !important;
+        padding-bottom: 0em !important;
+    }
+    .input-col{
+        padding-top: 40px;
+    }
+    footer .col-md-3{
+        margin: 0px 0px 20px 0px;
+    }
+    .footer-copywrite{
+        justify-content: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    footer .copywrite-text{
+        text-align: center;
+    }
+    .social-links{
+        text-align: center;
+        align-items: center;
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+    
+}
