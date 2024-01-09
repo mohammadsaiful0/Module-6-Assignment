@@ -36,6 +36,7 @@
     background-color: var(--dark-blue);
     border-radius: 5px;
     font-family: var(--Primary-font);
+    text-transform: capitalize;
 }
 .btn1:before{
     background: var(--primary-color);
@@ -319,7 +320,7 @@
 
 footer{
     background-color: var(--dark-blue);
-    height: 400px;
+    
 }
 
 footer p{
@@ -369,11 +370,7 @@ footer ul li a span{
     margin-right: 10px;
     color: var(--primary-color);
     font-size: 16px;
-
-
-    
 }
-
 footer ul li a:hover{
     color: #fff !important;
 }
@@ -383,4 +380,82 @@ footer ul li a:hover{
 }
 .quicklink-list li a:hover{
     color: #FF375F !important;
+}
+
+footer .social-links{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+    
+}
+footer .email-newsletter{
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #dddddd52;
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 100% !important;
+    font-family: var(--Primary-font);
+    font-size: 16px;
+}
+footer .email-newsletter:focus{
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+footer .form button{
+    background: var(--primary-color);
+    width: 100%;
+    margin-top: 10px;
+}
+footer .form button:after, footer .form button:before{
+    background: #fff;
+    
+}
+footer .form button:hover{
+    color:#002856
+}
+
+
+footer .copywrite-text{
+    margin: 0;
+}
+
+footer .social-links ul li{
+    display: inline;
+}
+
+footer .footer-copywrite{
+   border-top: 1px solid #dddddd71;
+   padding-top: 20px;
+   padding-bottom: 0;
+   align-items: center;
+   
+}
+
+footer .social-links h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: var(--Primary-font);
+}
+
+footer .social-links li a i{
+    background: #fff;
+    padding: 5px;
+    border-radius: 100px;
+    color: var(--dark-blue);
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    font-size: 16px;
+    transition: all .2s ease-in-out; 
+}
+
+footer .social-links li a i:hover{
+    background: var(--primary-color);
+    color: #fff;
+    transform: scale(1.1); 
+    
 }
